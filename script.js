@@ -25,9 +25,9 @@ const I18N = {
   en: {
     portfolio:"Porfolio",
     Download_cv:"C.V.",
-    hero_pill: "Student Specializing in Student in the Department of Ship Operation and Maintenance Technology",
+    hero_pill: "Student Specializing in Ship Operation and Maintenance Technology",
     hero_hi: "Hi, I'm",
-    hero_name:"Momen Amin ",
+    hero_name:"Mohammed ElSayed",
 
     hero_subtitle:
       "I work on practical engineering projects in industrial and energy technologies. This portfolio showcases my technical skills and hands-on experience.",
@@ -35,7 +35,7 @@ const I18N = {
     hero_btn_contact: "Contact Me",
     hero_location: "Port Said, Egypt",
     hero_degree: "East Port Said University of Technology",
-    profile_role: "Junior Technology Engineer",
+    profile_role: "Junior Technology Enginee ",
     stat_projects: "Projects",
     stat_certificates: "Certificates",
     stat_internships: "Internships",
@@ -48,10 +48,9 @@ const I18N = {
     hl2: "Familiar with marine engines and onboard systems",
     hl3: "Committed to safety procedures and teamwork in marine environments",
     about_education: "Education",
-    edu1: "Zohr Applied Technology School  Graduated in 2025",
-    edu2: "East Port Said University of Technology",
+    edu1: "East Port Said University of Technology",
     edu1b: "Ship Operation and Maintenance Program",
-  
+    edu2: "Expected Graduation: 2030",
 
     skills_title: "Skills",
     skills_tech: "Technical",
@@ -80,16 +79,16 @@ const I18N = {
     portfolio:"ملف الأعمال الشخصي",
     Download_cv:"السيرة الذاتية",
 
-    hero_pill: "طالب متخصص في قسم تكنولوجيا تشغيل وصيانة السفن",
+    hero_pill: "طالب متخصص في تكنولوجيا تشغيل وصيانة السفن",
     hero_hi: "مرحبًا، أنا",
-    hero_name:"مؤمن أمين",
+    hero_name:"محمد السيد",
     hero_subtitle:
       "أعمل على مشاريع هندسية تطبيقية في مجالات الصناعة وتقنيات الطاقة. يعرض هذا الموقع مهاراتي التقنية وخبرتي العملية.",
     hero_btn_projects: "عرض المشاريع",
     hero_btn_contact: "تواصل معي",
     hero_location: "بورسعيد، مصر",
     hero_degree: "جامعة شرق بورسعيد التكنولوجية",
-    profile_role: "مهندس تكنولوجيا مبتدئ",
+    profile_role: "مهندس تكنولوجى",
     stat_projects: "المشاريع",
     stat_certificates: "الشهادات",
     stat_internships: "التدريبات",
@@ -103,9 +102,9 @@ const I18N = {
     hl2: "الإلمام بالمحركات البحرية وأنظمة السفن",
     hl3: "الالتزام بإجراءات السلامة والعمل الجماعي في البيئات البحرية",
     about_education: "التعليم",
-    edu1: "متخرج مدرسة ظهر للتكنولوجيا التطبيقية عام 2025",
-    edu2: "جامعة شرق بورسعيد التكنولوجية",
+    edu1: "جامعة شرق بورسعيد التكنولوجية",
     edu1b: "برنامج تكنولوجيا تشغيل وصيانة السفن",
+    edu2: "متوقع التخرج: 2030",
 
     skills_title: "المهارات",
     skills_tech: "المهارات التقنية",

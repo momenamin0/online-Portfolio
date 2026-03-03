@@ -3,13 +3,13 @@
    ========= */
 
 :root{
-  --bg: #ffffff;
+  --bg: #0b1220;
   --card: rgba(255,255,255,0.06);
   --card2: rgba(255,255,255,0.04);
-  --text: rgba(255, 255, 255, 0.92);
-  --muted: rgb(255, 255, 255);
-  --border: rgb(255, 255, 255);
-  --accent: #0066ff;
+  --text: rgba(255,255,255,0.92);
+  --muted: rgba(255,255,255,0.72);
+  --border: rgba(255,255,255,0.12);
+  --accent: #6ea8fe;
   --accent2:#7ee1ff;
 
   --radius: 18px;
@@ -17,12 +17,12 @@
 }
 
 [data-theme="light"]{
-  --bg: #464648;
+  --bg: #f7f8fb;
   --card: rgba(20,24,36,0.05);
   --card2: rgba(20,24,36,0.03);
-  --text: rgb(255, 255, 255);
-  --muted: rgb(255, 255, 255);
-  --border: rgb(255, 255, 255);
+  --text: rgba(16,19,28,0.92);
+  --muted: rgba(16,19,28,0.68);
+  --border: rgba(16,19,28,0.12);
   --accent: #2b6ef3;
   --accent2:#00a2c7;
   --shadow: 0 14px 40px rgba(16,19,28,.12);
@@ -82,9 +82,9 @@ h2{font-size: 2rem}
   z-index: 10;
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
-  background: rgba(82, 124, 231, 0.55);
+  background: rgba(10,14,24,0.55);
 }
-[data-theme="light"] .topbar{ background: rgba(63, 63, 63, 0.75); }
+[data-theme="light"] .topbar{ background: rgba(247,248,251,0.75); }
 
 .topbar__inner{
   display:flex;
