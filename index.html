@@ -1,0 +1,323 @@
+<!doctype html> 
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Momen Amin | Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#home" aria-label="Go to top">
+        <img src="./assets/uni-logo.png" alt="University Logo" class="brand__logo">
+        <span class="brand__text" data-i18n="portfolio">Portfolio</span>
+      </a>
+       
+      <nav class="nav" aria-label="Primary">
+        <a href="#about" data-i18n="about_title">About</a>
+        <a href="#skills" data-i18n="skills_title">Skills</a>
+        <a href="#projects" data-i18n="projects_title">Projects</a>
+        <a href="#contact" data-i18n="contact_title">Contact</a>
+      </nav>
+
+      <div class="topbar__actions">
+        <button id="themeToggle" class="btn btn--ghost" type="button" aria-label="Toggle dark mode">
+          🌙
+        </button>
+        <button id="langToggle" class="btn btn--ghost" type="button" aria-label="Switch language">
+          AR
+        </button>
+        <a class="btn" href="./assets/cv momen.pdf" target="_blank" rel="noopener" data-i18n="Download_cv">Download CV</a>
+      </div>
+
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div id="mobileMenu" class="mobileMenu" hidden>
+      <div class="container mobileMenu__inner">
+        <a href="#about" class="mobileLink" data-i18n="about_title">About</a>
+        <a href="#skills" class="mobileLink" data-i18n="skills_title">Skills</a>
+        <a href="#projects" class="mobileLink" data-i18n="projects_title">Projects</a>
+        <a href="#contact" class="mobileLink" data-i18n="contact_title">Contact</a>
+        <div class="mobileMenu__actions">
+          <button id="themeToggleMobile" class="btn btn--ghost" type="button">🌙</button>
+          <button id="langToggleMobile" class="btn btn--ghost" type="button">AR</button>
+          <a class="btn" href="./assets/cv momen.pdf" target="_blank" rel="noopener" data-i18n="Download_cv">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home">
+    <section class="hero">
+      <div class="container hero__grid">
+        
+
+        <div class="hero__content">
+          <p class="pill" data-i18n="hero_pill">Student Specializing in Student in the Department of Ship Operation and Maintenance Technology  </p>
+
+          <h1 class="hero__title">
+            <span data-i18n="hero_hi">Hi, I'm</span>
+            <span class="hero__name" data-i18n="hero_name"> Momen Amin </span>
+          </h1>
+
+          <p class="hero__subtitle" data-i18n="hero_subtitle">
+            I work on practical engineering projects in industrial and energy technologies. This portfolio showcases my technical skills and hands-on experience.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#projects" data-i18n="hero_btn_projects">View Projects</a>
+            <a class="btn btn--ghost" href="#contact" data-i18n="hero_btn_contact">Contact Me</a>
+          </div>
+
+          <div class="hero__meta">
+            <span class="metaItem">📍 <span data-i18n="hero_location">Port Said, Egypt</span></span>
+            <span class="metaItem">🎓 <span data-i18n="hero_degree">East Port Said University of Technology</span></span>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <div class="profile">
+            <div class="avatar" aria-hidden="true">
+              <!-- Replace with your photo: assets/profile.jpg -->
+              <img src="./assets/me.jpeg" alt="" />
+            </div>
+            <div class="profile__info">
+              <h2 class="profile__name" data-i18n="hero_name">Momen Amin</h2>
+              <p class="profile__role" data-i18n="profile_role">Junior Technology Engineer</p>
+              <div class="profile__links">
+                <a href="https://www.linkedin.com/in/momen-amin-2375b5319/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="momenamin329@gmail.com">Email</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat__num">1</div>
+              <div class="stat__label" data-i18n="stat_projects">Projects</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">4</div>
+              <div class="stat__label" data-i18n="stat_certificates">Certificates</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">1</div>
+              <div class="stat__label" data-i18n="stat_internships">Internships</div>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="about_title">About Me</h2>
+          <p class="muted" data-i18n="about_subtitle"></p>
+        </div>
+
+        <div class="card">
+          <p data-i18n="about_text">
+            I’m a student in Industrial and Energy Technology, interested in practical engineering applications and real-world industrial systems. I enjoy working on technical projects, learning new technologies, and applying theoretical knowledge in hands-on environments.
+          </p>
+
+          <div class="grid2">
+            <div>
+              <h3 class="h3" data-i18n="about_highlights">Highlights</h3>
+              <ul class="list">
+                <li data-i18n="hl1">I received training within the Zohr field for 3 years</li>
+                <li data-i18n="hl2">Certified by the Arab-German Chamber of Industry</li>
+               
+            </div>
+
+            <div>
+              <h3 class="h3" data-i18n="about_education">Education</h3>
+              <ul class="list">
+                <li><strong> <data il18n="edu1">Zohr Applied Technology School  Graduated in 2025 </data></strong></li>
+                <li><strong data-i18n="edu2">East Port Said University of Technology</strong> — <span data-i18n="edu1b">Ship Operation and Maintenance Program</span></li>
+              
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="skills_title">Skills</h2>
+        </div>
+
+        <div class="chips">
+          <span class="chip">Marine Systems</span>
+          <span class="chip">Industrial Maintenance</span>
+          <span class="chip">Energy Systems</span>
+          <span class="chip">Technical Drawing</span>
+          <span class="chip">Safety Standards</span>
+        </div>
+
+        <div class="grid3">
+          <div class="card">
+            <h3 class="h3" data-i18n="skills_tech">Technical</h3>
+            <ul class="list">
+              <li>Industrial equipment maintenance</li>
+              <li>Mechanical components </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 class="h3" data-i18n="skills_tools">Tools</h3>
+            <ul class="list">
+              <li>Autocad</li>
+              <li>Microsoft Office</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 class="h3" data-i18n="skills_soft">Soft Skills</h3>
+            <ul class="list">
+              <li data-i18n="soft1">Communication</li>
+              <li data-i18n="soft2">Problem-solving</li>
+              <li data-i18n="soft3">Time management</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="projects_title">Projects</h2>
+        </div>
+
+        <div class="grid3">
+          <!-- Project Card -->
+
+            
+          </article>
+
+          <article class="project card">
+            <div class="project__thumb">
+              <img src="./assets/zohr.jpeg" alt="Project screenshot placeholder" />
+            </div>
+            <h3 class="h3">Energy Systems Practical Application in Zohr Field</h3>
+            <p class="muted" data-i18n="p3_desc">A hands-on project involving basic electrical or mechanical systems used in industrial and energy environments.</p>
+            <div class="project__tags">
+              <span class="tag">Energy Systems</span><span class="tag">Technical Application</span>
+            </div>
+            
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="contact_title">Contact</h2>
+        </div>
+
+        <div class="grid2">
+          <div class="card">
+            <h3 class="h3" data-i18n="contact_quick">Quick Links</h3>
+            <div class="contactLinks">
+              <a class="btn" href="momenamin329@gmail.com">Email</a>
+              <a class="btn btn--ghost" href="https://www.linkedin.com/in/momen-amin-2375b5319/" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+
+          </div>
+
+          <form class="card form" id="contactForm">
+            <label>
+              <span data-i18n="form_name">Your name</span>
+              <input required name="name" type="text" placeholder="Name" />
+            </label>
+
+            <label>
+              <span data-i18n="form_email">Your email</span>
+              <input required name="email" type="email" placeholder="you@example.com" />
+            </label>
+
+            <label>
+              <span data-i18n="form_message">Message</span>
+              <textarea required name="message" rows="5" placeholder="Write your message..."></textarea>
+            </label>
+
+            <button class="btn" type="submit" data-i18n="form_send">Send</button>
+            
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span>© <span id="year"></span> <span class="footerName">Momen Amin </span></span>
+        <a href="#home" class="toTop" data-i18n="back_to_top">Back to top ↑</a>
+      </div>
+    </footer> 
+  </main>
+
+
+</div>
+
+</body> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Background Video</title>
+
+<style>
+
+body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+/* video */
+#bg-video{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    z-index:-1;
+}
+
+</style>
+</head>
+
+<body>
+
+<video autoplay muted loop id="bg-video">
+    <source src="assets/ship1.mp4" type="video/mp4">
+</video>
+<script src="./script.js"></script>
+
+</body>
+</html>
